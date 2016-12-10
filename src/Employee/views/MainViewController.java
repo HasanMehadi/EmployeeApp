@@ -13,12 +13,12 @@ public class MainViewController {
     public Main main = new Main();
 
     @FXML
-    public void goHome() throws IOException{
+    public void goHome() throws IOException {
 
         main.showMainItems();
     }
 
-    public void addNewEmployee() throws IOException{
+    public void addNewEmployee() throws IOException {
 
         main.addNewEmployee();
 

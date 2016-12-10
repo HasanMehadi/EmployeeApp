@@ -23,7 +23,7 @@ public class MainItemsController {
     }
 
     @FXML
-    public void goCSEDept() throws IOException{
+    public void goCSEDept() throws IOException {
 
         main.showCSEDept();
     }

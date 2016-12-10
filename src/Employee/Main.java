@@ -1,17 +1,19 @@
 package Employee;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+
 import java.io.IOException;
 import java.util.Scanner;
 
 
 public class Main extends Application {
 
-    private static  Stage window;
+    private static Stage window;
     private static BorderPane mainLayout;
 
     @Override
@@ -57,7 +59,7 @@ public class Main extends Application {
         mainLayout.setCenter(eeeDept);
     }
 
-    public static void showCSEDept() throws IOException{
+    public static void showCSEDept() throws IOException {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(Main.class.getResource("CSEDept/CSEDeptView.fxml"));
 
@@ -65,7 +67,7 @@ public class Main extends Application {
         mainLayout.setCenter(eeeDept);
     }
 
-    public static void addNewEmployee() throws  IOException{
+    public static void addNewEmployee() throws IOException {
 
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(Main.class.getResource("views/AddNewEmployee.fxml"));
